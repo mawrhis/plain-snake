@@ -1,0 +1,31 @@
+{
+  "name": "plain-snake",
+  "version": "0.1.0",
+  "description": "A simple game of snake. Just pass the arena element and you are ready to go.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development --open",
+    "build": "webpack"
+  },
+  "keywords": [
+    "snake",
+    "game",
+    "simpl",
+    "plain"
+  ],
+  "author": "Jiri Prihoda",
+  "license": "ISC",
+  "repository": "https://github.com/mawrhis/plain-snake",
+  "devDependencies": {
+    "@types/css-modules": "^1.0.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

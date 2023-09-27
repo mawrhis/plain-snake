@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.arena {
+  width: 400px;
+  height: 400px;
+  background-color: #123456;
+  position: relative;
+}

@@ -1,0 +1,45 @@
+:root {
+  --color-green:rgb(132, 199, 170);
+}
+
+.snake {
+  background-color: var(--color-green);
+  position: absolute;
+}
+
+.food {
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.menu {
+  display: none;
+  /* display: flex; */
+  position: absolute;
+  border: 10px solid var(--color-green);
+  width: 200px;
+  height: 150px;
+  margin-left: auto;
+  top: calc(50% - 75px);
+  left: calc(50% - 100px);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-green);
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.button {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid var(--color-green);
+  font-weight: 900;
+  color: var(--color-green);
+  text-transform: uppercase;
+  background: inherit;
+  cursor: pointer;
+}
+.visible {
+  display: flex;
+}
+/* TODO css variables */
